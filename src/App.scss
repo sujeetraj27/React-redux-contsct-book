@@ -1,0 +1,28 @@
+$theme-colors: (
+  "primary": #6200ea,
+  "sucsess": #33691e,
+  "danger": #ff4136,
+  "warning": #ffab00,
+  "light": #eedd82
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+.action{
+  opacity: 0;
+}
+
+tr:hover .action{
+  opacity: 1;
+}
+
+tbody td a{
+  color: #111111;
+  &:hover{
+    color: #000000;
+  }
+}
+
+.card{
+  margin-top: 20px;
+}
